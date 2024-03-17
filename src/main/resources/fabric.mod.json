@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "saguaro-mod",
+	"version": "${version}",
+	"name": "Saguaro Mod",
+	"description": "Adds saguaro cacti and related items.",
+	"authors": [
+		"DJKnarnia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MITe",
+	"icon": "assets/saguaro-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.djknarnia.saguaro.SaguaroMod"
+		],
+		"client": [
+			"net.djknarnia.saguaro.SaguaroModClient"
+		],
+		"fabric-datagen": [
+			"net.djknarnia.saguaro.SaguaroModDataGenerator"
+		]
+	},
+	"mixins": [
+		"saguaro-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
