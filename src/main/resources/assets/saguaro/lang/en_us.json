@@ -1,3 +1,10 @@
 {
-  "item.saguaro.saguaro_fruit": "Saguaro Fruit"
+  "item.saguaro.saguaro_fruit": "Saguaro Fruit",
+
+  "block.saguaro.saguaro_stem": "Saguaro Stem",
+  "block.saguaro.saguaro_wood": "Saguaro Wood",
+  "block.saguaro.stripped_saguaro_stem": "Stripped Saguaro Stem",
+  "block.saguaro.stripped_saguaro_wood": "Stripped Saguaro Wood",
+
+  "itemgroup.saguaro": "Saguaro"
 }
