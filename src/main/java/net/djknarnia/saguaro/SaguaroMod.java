@@ -1,5 +1,6 @@
 package net.djknarnia.saguaro;
 
+import net.djknarnia.saguaro.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -10,7 +11,7 @@ public class SaguaroMod implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 
-	public static final String MOD_ID = "saguaro_mod";
+	public static final String MOD_ID = "saguaro";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -19,6 +20,6 @@ public class SaguaroMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
