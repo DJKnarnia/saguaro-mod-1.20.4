@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "saguaro-mod",
+	"id": "saguaro",
 	"version": "${version}",
 	"name": "Saguaro Mod",
 	"description": "Adds saguaro cacti and related items.",

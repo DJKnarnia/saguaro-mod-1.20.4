@@ -1,0 +1,5 @@
+// 1.20.4	2024-03-18T15:55:13.6685263	Saguaro Mod/Block Loot Tables
+281c60af1e9be294eb2cc145f4da1ca378f0f0e1 data\saguaro\loot_tables\blocks\saguaro_wood.json
+e96ac44dd725386dbb5022f6837c4a0b3f90e31b data\saguaro\loot_tables\blocks\stripped_saguaro_stem.json
+b8ed0938feae1d6a45c104124a1c85a53da5c2ff data\saguaro\loot_tables\blocks\saguaro_stem.json
+c7784d82615211e8de5bcb90e3163f2e8aee4ef6 data\saguaro\loot_tables\blocks\stripped_saguaro_wood.json

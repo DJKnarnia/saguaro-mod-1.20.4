@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "saguaro:block/saguaro_top"
-  }
-}

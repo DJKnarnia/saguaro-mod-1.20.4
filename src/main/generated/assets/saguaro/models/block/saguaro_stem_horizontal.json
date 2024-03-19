@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "saguaro:block/saguaro_stem_top",
+    "side": "saguaro:block/saguaro_stem"
+  }
+}

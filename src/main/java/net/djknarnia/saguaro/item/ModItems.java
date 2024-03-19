@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item SAGUARO_FRUIT = registerItem("saguaro_fruit", new Item(new FabricItemSettings()));
+    public static final Item SAGUARO_FRUIT = registerItem("saguaro_fruit", new Item(new FabricItemSettings().food(ModFoodComponents.SAGUARO_FRUIT)));
     private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries) {
         entries.add(SAGUARO_FRUIT);
     }

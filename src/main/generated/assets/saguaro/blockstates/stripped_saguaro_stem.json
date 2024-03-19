@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "saguaro:block/stripped_saguaro_stem_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "saguaro:block/stripped_saguaro_stem"
+    },
+    "axis=z": {
+      "model": "saguaro:block/stripped_saguaro_stem_horizontal",
+      "x": 90
+    }
+  }
+}
