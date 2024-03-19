@@ -15,11 +15,22 @@ public class ModItemGroups {
             new Identifier(SaguaroMod.MOD_ID, "saguaro"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.saguaro"))
                     .icon(() -> new ItemStack(ModItems.SAGUARO_FRUIT)).entries((displayContext, entries) -> {
+                        /*
+                            Saguaro Blocks
+                         */
                         entries.add(ModItems.SAGUARO_FRUIT);
                         entries.add(ModBlocks.SAGUARO_STEM);
                         entries.add(ModBlocks.SAGUARO_WOOD);
                         entries.add(ModBlocks.STRIPPED_SAGUARO_STEM);
                         entries.add(ModBlocks.STRIPPED_SAGUARO_WOOD);
+                        /*
+                            Hardened Clay Blocks
+                         */
+                        entries.add(ModBlocks.HARDENED_CLAY);
+                        entries.add(ModBlocks.HARDENED_CLAY_STAINED_BLACK);
+                        /*
+                            Clay Blocks
+                         */
                     }).build());
     public static void registerItemGroups() {
         SaguaroMod.LOGGER.info("Registering Item Groups for " + SaguaroMod.MOD_ID);

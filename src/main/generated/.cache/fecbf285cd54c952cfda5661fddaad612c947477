@@ -1,7 +1,11 @@
-// 1.20.4	2024-03-18T15:55:13.6675263	Saguaro Mod/Model Definitions
+// 1.20.4	2024-03-18T22:47:49.2125065	Saguaro Mod/Model Definitions
 32d13949ba3d161d727d6760b314fa33edcccec7 assets\saguaro\blockstates\stripped_saguaro_stem.json
+351cf1e82e315aaa17891bb3726e680afdb68b12 assets\saguaro\models\block\hardened_clay.json
+2136daecd170e55a7376cb154155780ddbd9686d assets\saguaro\blockstates\hardened_clay.json
 fa185abccac624754af1d028947ccce2ef2bd68a assets\saguaro\models\block\saguaro_wood.json
+827d4f7ef0744d0522fe2a25aeb38f2db3556203 assets\saguaro\models\item\hardened_clay.json
 d6eff96bd10abfbd1c640f7ed41386d73c37aea2 assets\saguaro\models\block\stripped_saguaro_stem.json
+884fb54da59629ceb4368de819294563afdf0da9 assets\saguaro\models\item\hardened_clay_stained_black.json
 2c02807a97f9f004231ca98772d25f0cd85a88ee assets\saguaro\blockstates\saguaro_stem.json
 3f6f2e538bc69cd154f37cce06811ce71a161bc2 assets\saguaro\models\item\saguaro_fruit.json
 4b7ed8ffd6fd5f45df943bcb487c56daa2515867 assets\saguaro\blockstates\stripped_saguaro_wood.json
@@ -10,7 +14,9 @@ d6eff96bd10abfbd1c640f7ed41386d73c37aea2 assets\saguaro\models\block\stripped_sa
 67044722fd17177b69c0292a3b5266ef5cf6064a assets\saguaro\models\item\stripped_saguaro_stem.json
 ec9cfa2110dc1230af1bfaee2b3ffbfa83bd3f24 assets\saguaro\blockstates\saguaro_wood.json
 fd04f0de14e1479276ff9cc0780728b5c112312b assets\saguaro\models\block\saguaro_stem.json
+1ebb585a569dd1f44f9dc581fcd3ac5b2e9d88f2 assets\saguaro\blockstates\hardened_clay_stained_black.json
 c60bfc7dafb2b49360513d00269658c4002722e8 assets\saguaro\models\item\stripped_saguaro_wood.json
+f0e29020494c9b952f0a426b53b6b79791c130cd assets\saguaro\models\block\hardened_clay_stained_black.json
 142556b3a3616e8fc21c3ad9008c003f663dafd5 assets\saguaro\models\item\saguaro_stem.json
 b384d02b39df9b58e51e53b271635285a19d50e9 assets\saguaro\models\block\stripped_saguaro_stem_horizontal.json
 baa68ee5c6f7dcc3754e8653602b2f28c78c8535 assets\saguaro\models\block\stripped_saguaro_wood.json

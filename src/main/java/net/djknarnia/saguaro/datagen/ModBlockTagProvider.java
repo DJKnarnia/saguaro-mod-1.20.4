@@ -23,5 +23,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAGUARO_WOOD)
                 .add(ModBlocks.STRIPPED_SAGUARO_STEM)
                 .add(ModBlocks.STRIPPED_SAGUARO_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.HARDENED_CLAY)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_BLACK);
     }
 }

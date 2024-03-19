@@ -16,9 +16,21 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        /*
+            Saguaro Blocks
+         */
         blockStateModelGenerator.registerLog(ModBlocks.SAGUARO_STEM).log(ModBlocks.SAGUARO_STEM).wood(ModBlocks.SAGUARO_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_SAGUARO_STEM).log(ModBlocks.STRIPPED_SAGUARO_STEM).wood(ModBlocks.STRIPPED_SAGUARO_WOOD);
 
+        /*
+            Hardened Clay Blocks
+         */
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_BLACK);
+
+        /*
+            Clay Blocks
+         */
     }
 
     @Override

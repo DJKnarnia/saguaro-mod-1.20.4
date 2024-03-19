@@ -15,6 +15,9 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+    /*
+        Saguaro Blocks
+     */
     public static final Block SAGUARO_STEM = registerBlock("saguaro_stem",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
     public static final Block SAGUARO_WOOD = registerBlock("saguaro_wood",
@@ -23,7 +26,17 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
     public static final Block STRIPPED_SAGUARO_WOOD = registerBlock("stripped_saguaro_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+    /*
+        Hardened Clay Blocks
+    */
+    public static final Block HARDENED_CLAY = registerBlock("hardened_clay",
+            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.TERRACOTTA_ORANGE)));
+    public static final Block HARDENED_CLAY_STAINED_BLACK = registerBlock("hardened_clay_stained_black",
+            new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.TERRACOTTA_BLACK)));
 
+    /*
+        Registration Functions
+     */
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(SaguaroMod.MOD_ID, name), block);
