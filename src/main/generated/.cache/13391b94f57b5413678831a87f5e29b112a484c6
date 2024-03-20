@@ -1,3 +1,4 @@
-// 1.20.4	2024-03-18T22:47:49.211504	Saguaro Mod/Tags for minecraft:block
-d0bbe23c9aa6ad16eb9dda3ba7b23f1940c5f5a1 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.4	2024-03-19T22:38:36.8865924	Saguaro Mod/Tags for minecraft:block
+54c1586e1b3b622a3d3ae49cb62f9d199043a91a data\minecraft\tags\blocks\mineable\pickaxe.json
 f632eaeaa8543b03ef11a7e3ae83acd57ea0a454 data\minecraft\tags\blocks\logs_that_burn.json
+e417ebfceb4b64e59669ca2f030eb82cfefb9a9d data\minecraft\tags\blocks\mineable\shovel.json

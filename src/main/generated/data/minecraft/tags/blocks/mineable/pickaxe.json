@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     "saguaro:hardened_clay",
-    "saguaro:hardened_clay_stained_black"
+    "saguaro:hardened_clay_stained_white",
+    "saguaro:hardened_clay_stained_orange",
+    "saguaro:hardened_clay_stained_magenta",
+    "saguaro:hardened_clay_stained_light_blue",
+    "saguaro:hardened_clay_stained_yellow",
+    "saguaro:hardened_clay_stained_lime",
+    "saguaro:hardened_clay_stained_pink",
+    "saguaro:hardened_clay_stained_gray",
+    "saguaro:hardened_clay_stained_light_gray",
+    "saguaro:hardened_clay_stained_cyan",
+    "saguaro:hardened_clay_stained_purple",
+    "saguaro:hardened_clay_stained_blue",
+    "saguaro:hardened_clay_stained_brown",
+    "saguaro:hardened_clay_stained_green",
+    "saguaro:hardened_clay_stained_red",
+    "saguaro:hardened_clay_stained_black",
+    "saguaro:hardened_clay_redstone_infused"
   ]
 }

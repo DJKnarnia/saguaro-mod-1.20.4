@@ -26,11 +26,44 @@ public class ModModelProvider extends FabricModelProvider {
             Hardened Clay Blocks
          */
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_WHITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_ORANGE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_MAGENTA);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_LIGHT_BLUE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_YELLOW);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_LIME);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_PINK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_GRAY);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_LIGHT_GRAY);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_CYAN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_PURPLE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_BLUE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_BROWN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_GREEN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_RED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_STAINED_BLACK);
-
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HARDENED_CLAY_REDSTONE_INFUSED);
         /*
             Clay Blocks
          */
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_MESA);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_WHITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_ORANGE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_MAGENTA);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_LIGHT_BLUE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_YELLOW);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_LIME);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_PINK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_GRAY);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_LIGHT_GRAY);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_CYAN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_PURPLE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_BLUE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_BROWN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_GREEN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_RED);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_BLACK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_REDSTONE_INFUSED);
     }
 
     @Override

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "saguaro:block/hardened_clay_stained_magenta"
+  }
+}

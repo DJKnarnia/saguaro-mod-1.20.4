@@ -26,6 +26,42 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.HARDENED_CLAY)
-                .add(ModBlocks.HARDENED_CLAY_STAINED_BLACK);
+                .add(ModBlocks.HARDENED_CLAY_STAINED_WHITE)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_ORANGE)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_MAGENTA)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_LIGHT_BLUE)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_YELLOW)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_LIME)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_PINK)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_GRAY)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_LIGHT_GRAY)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_CYAN)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_PURPLE)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_BLUE)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_BROWN)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_GREEN)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_RED)
+                .add(ModBlocks.HARDENED_CLAY_STAINED_BLACK)
+                .add(ModBlocks.HARDENED_CLAY_REDSTONE_INFUSED);
+
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.CLAY_MESA)
+                .add(ModBlocks.CLAY_WHITE)
+                .add(ModBlocks.CLAY_ORANGE)
+                .add(ModBlocks.CLAY_MAGENTA)
+                .add(ModBlocks.CLAY_LIGHT_BLUE)
+                .add(ModBlocks.CLAY_YELLOW)
+                .add(ModBlocks.CLAY_LIME)
+                .add(ModBlocks.CLAY_PINK)
+                .add(ModBlocks.CLAY_GRAY)
+                .add(ModBlocks.CLAY_LIGHT_GRAY)
+                .add(ModBlocks.CLAY_CYAN)
+                .add(ModBlocks.CLAY_PURPLE)
+                .add(ModBlocks.CLAY_BLUE)
+                .add(ModBlocks.CLAY_BROWN)
+                .add(ModBlocks.CLAY_GREEN)
+                .add(ModBlocks.CLAY_RED)
+                .add(ModBlocks.CLAY_BLACK)
+                .add(ModBlocks.CLAY_REDSTONE_INFUSED);
     }
 }

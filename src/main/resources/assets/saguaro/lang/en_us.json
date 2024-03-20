@@ -7,7 +7,10 @@
   "block.saguaro.stripped_saguaro_wood": "Stripped Saguaro Wood",
 
   "block.saguaro.hardened_clay": "Hardened Clay",
+  "block.saguaro.hardened_clay_stained_white": "White Hardened Clay",
   "block.saguaro.hardened_clay_stained_black": "Black Hardened Clay",
+
+  "block.saguaro.clay_black": "Black Clay",
 
   "itemgroup.saguaro": "Saguaro"
 }
