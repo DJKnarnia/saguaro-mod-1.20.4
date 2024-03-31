@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "saguaro:clay_mesa",
+    "saguaro:clay_white",
+    "saguaro:clay_orange",
+    "saguaro:clay_magenta",
+    "saguaro:clay_light_blue",
+    "saguaro:clay_yellow",
+    "saguaro:clay_lime",
+    "saguaro:clay_pink",
+    "saguaro:clay_gray",
+    "saguaro:clay_light_gray",
+    "saguaro:clay_cyan",
+    "saguaro:clay_purple",
+    "saguaro:clay_blue",
+    "saguaro:clay_brown",
+    "saguaro:clay_green",
+    "saguaro:clay_red",
+    "saguaro:clay_black",
+    "saguaro:clay_redstone_infused"
+  ]
+}
