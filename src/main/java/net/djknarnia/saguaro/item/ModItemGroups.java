@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAGUARO_WOOD);
                         entries.add(ModBlocks.STRIPPED_SAGUARO_STEM);
                         entries.add(ModBlocks.STRIPPED_SAGUARO_WOOD);
+                        entries.add(ModBlocks.SAGUARO_BEEHIVE_BLOCK);
                         /*
                             Hardened Clay Blocks
                          */

@@ -2,16 +2,19 @@ package net.djknarnia.saguaro.block;
 
 import net.djknarnia.saguaro.SaguaroMod;
 import net.djknarnia.saguaro.block.custom.HardenedClayBlock;
+import net.djknarnia.saguaro.block.entity.SaguaroBeehiveBlock;
 import net.djknarnia.saguaro.block.custom.SaguaroBlock;
 import net.djknarnia.saguaro.block.custom.SoftenedClayBlock;
-import net.djknarnia.saguaro.util.ModTags;
+import net.djknarnia.saguaro.datagen.ModPOITagProvider;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.poi.PointOfInterestType;
 
 import java.util.function.Supplier;
 
@@ -27,9 +30,19 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
     public static final Block STRIPPED_SAGUARO_WOOD = registerBlock("stripped_saguaro_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+
+    /*
+    Beehive code taken from justfatlard's Better Beehives mod.
+    https://github.com/fatlard1993/better-beehive
+    https://www.curseforge.com/minecraft/mc-mods/better-beehives
+    */
+    public static final BeehiveBlock SAGUARO_BEEHIVE_BLOCK = (BeehiveBlock) registerBlock("saguaro_beehive",
+            new SaguaroBeehiveBlock(FabricBlockSettings.copyOf(Blocks.BEEHIVE).ticksRandomly()));
+
+    public static final PointOfInterestType SAGUARO_BEEHIVE_POI = PointOfInterestHelper.register(new Identifier(SaguaroMod.MOD_ID, "saguaro_beehive_poi"), 0, 1, SAGUARO_BEEHIVE_BLOCK);
     /*
         Suppliers
-     */
+    */
     static Supplier<HardenedClayBlock> hardenedClayBlockSupplier = () -> ModBlocks.HARDENED_CLAY;
     static Supplier<SoftenedClayBlock> mesaClayBlockSupplier = () -> (SoftenedClayBlock) ModBlocks.CLAY_MESA;
     static Supplier<HardenedClayBlock> hardenedWhiteClayBlockSupplier = () -> ModBlocks.HARDENED_CLAY_STAINED_WHITE;

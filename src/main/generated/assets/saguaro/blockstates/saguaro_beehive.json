@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "saguaro:block/saguaro_beehive"
+      },
+      {
+        "model": "saguaro:block/saguaro_beehive",
+        "y": 90
+      },
+      {
+        "model": "saguaro:block/saguaro_beehive",
+        "y": 180
+      },
+      {
+        "model": "saguaro:block/saguaro_beehive",
+        "y": 270
+      }
+    ]
+  }
+}

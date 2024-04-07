@@ -20,6 +20,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_SAGUARO_STEM);
         addDrop(ModBlocks.STRIPPED_SAGUARO_WOOD);
 
+        addDrop(ModBlocks.SAGUARO_BEEHIVE_BLOCK);
+
         /*
             Hardened Clay Blocks
          */
